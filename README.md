@@ -1,5 +1,3 @@
-# ModelTuning
-
 Model Tuning-
 	GridSearchCV 
 		we use this when less no. of hyperparameters and also less data as trainig
@@ -13,3 +11,11 @@ Model Tuning-
 		than explicitly define values in array and by chance or randomly it can
 		opt that value which give best result in model and that is not there in
 		list we define.
+
+	Bayesian Optimization -Automate Hyperparameter Tuning (Hyperopt)
+	Sequential Model Based Optimization(Tuning a scikit-learn estimator with skopt)
+	Optuna- Automate Hyperparameter Tuning
+	Genetic Algorithms (TPOT Classifier)
+
+in deployment model is continuosly monitored as if data changes then we do make changes as
+our model we built on the particular dataset, different hyperparameter value works with different dataset 
